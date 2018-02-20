@@ -1,9 +1,9 @@
-.PHONY: pycrf pycrt-user
+.PHONY: pycrf pycrf-user
 
 pycrf:
 	./update_cpp.sh
-	sudo pip install -e .
+	sudo pip2 install -e .
 
 pycrf-user:
 	./update_cpp.sh
-	pip install -e . --user
+	pip2 install -e . --user
