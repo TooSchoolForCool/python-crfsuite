@@ -2,7 +2,7 @@
 
 pycrf:
 	./update_cpp.sh
-	sudo pip2 install -e .
+	pip2 install -e .
 
 pycrf-user:
 	./update_cpp.sh
